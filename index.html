@@ -8,16 +8,21 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <div class="container">
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
-      <div class="cells"></div>
+    <h1 class="title">Tic-Tac-Toe Game</h1>
+    <div class="container circle">
+      <div class="cells x" data-cell></div>
+      <div class="cells circle" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+      <div class="cells" data-cell></div>
+    </div>
+    <div class="win-message show" id="winmessage">
+      <div data-winning-message>x wins</div>
+      <button id="restartbtn">Restart</button>
     </div>
   </body>
 </html>
