@@ -8,21 +8,30 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <h1 class="title">Tic-Tac-Toe Game</h1>
-    <div class="container" id="container">
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-      <div class="cells" data-cell></div>
-    </div>
-    <div class="win-message" id="winmessage">
-      <div data-winning-message>x wins</div>
-      <button id="restartbtn">Restart</button>
+    <div class="container">
+      <h1 class="title">Tic-Tac-Toe Game</h1>
+      <p id="turn">Current turn</p>
+      <div class="players">
+        <p>Player: X</p>
+
+        <p>Player: O</p>
+      </div>
+
+      <div class="board-container" id="board-container">
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+      </div>
+      <div class="win-message" id="winmessage">
+        <div id="data-winning-message">x wins</div>
+        <button id="restartbtn">Restart</button>
+      </div>
     </div>
   </body>
 </html>
